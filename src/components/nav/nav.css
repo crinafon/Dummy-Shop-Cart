@@ -1,0 +1,25 @@
+.nav-container {
+    border: 1px solid gray;
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.nav-link {
+    text-decoration: none
+}
+
+.nav-cart-qty {
+    position: absolute;
+    top: -7px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkred;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 1;
+    text-align: center;
+    padding: 0.1rem;
+}
